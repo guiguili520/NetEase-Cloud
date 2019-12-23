@@ -1,12 +1,756 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>网易云</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/head.css" />
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<style>			
+		</style>
+	
+	</head>
+	<body>
+		<!--head头部-->
+		<div class="container" style="width: 100%;">
+			<div class="row" style="background: #222222;">
+				<div class="col-md-12" >
+					<nav class="navbar navbar-inverse nav_header_md" style="border: none;height: 69px;" role="navigation">
+						<div class="navbar-header" style="margin-left: 100px;">
+							<a href="#" class="navbar-brand" style="margin-top: 10px;">网易云音乐</a>							
+						</div>
+						<div>
+							<ul class="nav navbar-nav" style="margin-top: 10px;margin-left: 20px;">
+								<li class="top_div_ul_li"><a href="#">发现音乐</a></li>
+								<li class="top_div_ul_li"><a href="#">我的音乐</a></li>
+								<li class="top_div_ul_li"><a href="#">朋友</a></li>
+								<li class="top_div_ul_li"><a href="#">商城</a></li>
+								<li class="top_div_ul_li"><a href="#">音乐人</a></li>
+								<li class="top_div_ul_li"><a href="#">下载</a></li>
+							</ul>
+						</div>
+						<form action="" class="navbar-form navbar-left" role="search" style="margin-top: 20px;margin-left: 100px;">
+							<div class="form-group">
+								<!--
+                                	作者：1980028437@qq.com
+                                	时间：2018-07-24
+                                	描述：<span class="glyphicon glyphicon-search"></span>   //放大镜图标
+                                -->
+								<input type="text" class="form-control search_shousuo" placeholder="音乐/视频/电台/用户" />
+							</div>
+						</form>
+						<div class="div_search" style="margin-top: 20px;margin-left: 10px;">
+							<a href="#" style="cursor: pointer;"><button type="button" class="btn search_shousuo" style="background: black;color: white;">视频投稿</button></a>
+						</div>
+						<div class="div_login_btn" style="margin-top: 25px;">
+							<a href="#" style="cursor: pointer; color: orangered;">登录</a>
+						</div>
+					</nav>
+					<div class="row">
+					<div class="col-md-12  div_top">					
+				    <ul class="nav nav-pills navbar-nav" style="margin-left: 40px;">
+						<li class="div_top_li">推荐</li>						
+						<li class="div_top_li">排行榜</li>
+						<li class="div_top_li">歌单</li>
+						<li class="div_top_li">主播电台</li>
+						<li class="div_top_li">歌手</li>
+						<li class="div_top_li">新碟上架</li>
+					</ul>					
+					</div>
+				</div>
+				</div>	
+			</div>
+		</div>	
+		<!--center中间部分-->
+		<div id="myCarousel" class="carousel slide">
+				    <!-- 轮播（Carousel）指标 -->
+				    <ol class="carousel-indicators" style="left: 25%;">
+				        <li data-target="#myCarousel" data-slide-to="0" class="active" style="margin-left: 145px;"></li>
+				        <li data-target="#myCarousel" data-slide-to="1" style="margin-left: 175px;"></li>
+				        <li data-target="#myCarousel" data-slide-to="2" style="margin-left: 205px;"></li>
+				        <li data-target="#myCarousel" data-slide-to="3" style="margin-left: 235px;"></li>
+				        <li data-target="#myCarousel" data-slide-to="4" style="margin-left: 265px;"></li>
+				    </ol>
+				    <!-- 轮播（Carousel）项目 -->						   
+				    <div class="carousel-inner" style="width:730px;margin-left: 188px;">
+				        <div class="item active" >
+				            <img src="img/lb1.jpg" alt="First slide">
+				        </div>
+				        <div class="item" >
+				            <img src="img/lb2.jpg" alt="Second slide">
+				        </div>
+				        <div class="item">
+				            <img src="img/lb3.jpg" alt="Third slide">
+				        </div>
+				        <div class="item" >
+				            <img src="img/lb4.jpg" alt="Third slide">
+				        </div>
+				        <div class="item">
+				            <img src="img/center1.jpg" alt="Third slide">
+				        </div>
+				    </div>
+				    		
+				    <!-- 轮播（Carousel）导航 -->
+				    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				       <div>
+				       	 <div class="div_center_img_right" style="background-image: url(img/xiazai.jpg);width:252px;height:336px;">
+								<a href="#" class="btn center_btn"></a>								
+								<span class="showe"></span>
+								<span class="shower"></span>
+					     </div>	
+				       </div>
+			         </div>														
+					</div>
+				</div>
+			</div>
+		</div>
+		   <!--bottom底部-->
+		<div class="container" style="width: 100%;">
+		   	<div class="row" style="background-color: #EBEBEB;">
+		   		<div class="col-md-9-3" style="border: 1px solid #CCCCCC;background-color: white;margin-left: 188px;width: 974px;border-bottom: none;">
+		   			<div style="width:974px;margin-right: -248px;">
+		   			<div class="div_bottom_1" style="border-right: 1px solid #CCCCCC;">
+		   				<div class="div_bottom_2">
+		   					<div class="div_bottom_3">
+		   						<div class="div_bottom_4">
+		   							<div class="div_bottom_5">
+		   								<a href="#" class="bottom_a">热门推荐</a>
+		   								<div class="tab">
+				   									<a href="#">华语</a>
+				   									<span class="line">|</span>
+				   									<a href="#">流行</a>
+				   									<span class="line">|</span>
+				   									<a href="#">摇滚</a>
+				   									<span class="line">|</span>
+				   									<a href="#">民谣</a>
+				   									<span class="line">|</span>
+				   									<a href="#">电子</a>
+				   					    </div>	
+				   					    <span class="more">
+				   					    	<a href="#">更多</a>
+				   					    	<i class="cor"></i>
+				   					    </span>
+				   							</div>
+				   						</div>		   						
+				   					</div>
+		   					            <ul class="ul_class1">
+		   								 	<li class="li_class1">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="恋爱系Melody，不知觉已陷入暗恋之心" href="#">
+		   								 		  <img src="img/dt1.jpg" alt="恋爱系Melody，不知觉已陷入暗恋之心" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">452万</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="恋爱系Melody，不知觉已陷入暗恋之心" href="#" class="tit">恋爱系Melody，不知觉已陷入暗恋之心</a></p>
+		   								 	</li>
+		   								 	<li class="li_class2">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="No.19  陪我去看金鱼烟火" href="#">
+		   								 		  <img src="img/dt2.jpg" alt="No.19  陪我去看金鱼烟火" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">61717</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="No.19  陪我去看金鱼烟火" href="#" class="tit">No.19  陪我去看金鱼烟火</a></p>
+		   								 	</li>
+		   								 	<li class="li_class3">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="100首古风歌曲推荐❶【古风控必备】" href="#">
+		   								 		  <img src="img/dt3.jpg" alt="100首古风歌曲推荐❶【古风控必备】" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">2499万</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="100首古风歌曲推荐❶【古风控必备】" href="#" class="tit">100首古风歌曲推荐❶【古风控必备】</a></p>
+		   								 	</li>
+		   								 	<li class="li_class4">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="[日系]无前奏，用嗓音征服你的听觉神经" href="#">
+		   								 		  <img src="img/dt4.jpg" alt="[日系]无前奏，用嗓音征服你的听觉神经" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">1997</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="[日系]无前奏，用嗓音征服你的听觉神经" href="#" class="tit">[日系]无前奏，用嗓音征服你的听觉神经</a></p>
+		   								 	</li>
+		   								 	<li class="li_class5">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="Jazz-hiphop | 最美纯音钢琴节奏精选" href="#">
+		   								 		  <img src="img/dt5.jpg" alt="Jazz-hiphop | 最美纯音钢琴节奏精选" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">42万</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="Jazz-hiphop | 最美纯音钢琴节奏精选" href="#" class="tit">Jazz-hiphop | 最美纯音钢琴节奏精选</a></p>
+		   								 	</li>
+		   								 	<li class="li_class6">
+		   								 		<div class="ul_div1">
+		   								 		  <a title=" “余生很贵，请别轻易浪费”" href="#">
+		   								 		  <img src="img/dt6.jpg" alt=" “余生很贵，请别轻易浪费”" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">9016</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title=" “余生很贵，请别轻易浪费”" href="#" class="tit" style="height: 40px;float: left;">“余生很贵，请别轻易浪费”</a></p>
+		   								 	</li>
+		   								 	<li class="li_class7">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="长板少女 ʚ dancing ɞ" href="#">
+		   								 		  <img src="img/dt7.jpg" alt="长板少女 ʚ dancing ɞ" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">96266</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="长板少女 ʚ dancing ɞ" href="#" class="tit">长板少女 ʚ dancing ɞ</a></p>
+		   								 	</li>
+		   								 	<li class="li_class8">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="日语｜想找一个天真活泼可爱的女朋友" href="#">
+		   								 		  <img src="img/dt8.jpg" alt="日语｜想找一个天真活泼可爱的女朋友" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">21771</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="日语｜想找一个天真活泼可爱的女朋友" href="#" class="tit">日语｜想找一个天真活泼可爱的女朋友</a></p>
+		   								 	</li>
+		   					            </ul>		   					       
+				   				</div>
+				   				<div class="div_bottom_3" style="margin: 0px 20px 0 20px;">
+		   						<div class="div_bottom_4">
+		   							<div class="div_bottom_5">
+		   								<a href="#" class="bottom_a">个性化推荐</a>	
+				   						</div>				   							 
+				   						</div>		   						
+				   					</div>
+				   			<ul class="ul_class1" style="padding: 0 20px 0 20px;height: 300px;">
+				   				<li>
+				   					<a title="每日歌曲推荐" href="#" class="u-date">
+				   						<span class="head">星期四</span>
+				   						<span class="head1">2</span>
+				   					</a>
+				   					    <p class="dec" ><a title="每日歌曲推荐">每日歌曲推荐</a></p>
+				   					    <p class="zhushi">根据你的口味生成，<br>每天6:00更新</p>
+				   				</li>
+				   				<li class="li_class2">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="Lemon-米津玄师-翻唱翻奏全收录" href="#">
+		   								 		  <img src="img/tj1.jpg" alt="Lemon-米津玄师-翻唱翻奏全收录" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">20.8万</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="Lemon-米津玄师-翻唱翻奏全收录" href="#" class="tit">Lemon-米津玄师-翻唱翻奏全收录</a></p>
+		   								 		<p class="zhushi" title="根据你喜欢的单曲《Lemon-piano ver.-（Cover 米津玄師）》推荐">根据你喜欢的单曲《Lemon-piano ver.-（Cover 米津玄師）》推荐</p>
+		   					    </li>
+		   					    <li class="li_class3">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="三无MarBlue" href="#">
+		   								 		  <img src="img/tj2.jpg" alt="三无MarBlue" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">72.9万</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="三无MarBlue" href="#" class="tit">三无MarBlue</a></p>
+		   								 		<p class="zhushi" title="根据你喜欢的单曲《Lemon-piano ver.-（Cover 米津玄師）》推荐">根据你喜欢的单曲《Lemon-piano ver.-（Cover 米津玄師）》推荐</p>
+		   								 	</li>
+		   								 	<li class="li_class4">
+		   								 		<div class="ul_div1">
+		   								 		  <a title="《》| 未完待续-羽肿" href="#">
+		   								 		  <img src="img/tj3.jpg" alt="《》| 未完待续-羽肿" style="width: 140px;height: 140px;border: 1px solid #CCCCCC;"/>
+		   								 		  </a>
+		   								 		  <div class="div_class1">
+		   								 		  	<a title="播放" href="#" class="a-copy"></a>
+		   								 		  	<span class="span_header"></span>
+		   								 		  	<span class="nb">80.1万</span>
+		   								 		  </div>
+		   								 		</div>
+		   								 		<p class="dec"><a title="《》| 未完待续-羽肿" href="#" class="tit">《》| 未完待续-羽肿</a></p>
+		   								 		<p class="zhushi" title="根据你喜欢的单曲《Rain after Summer》推荐">根据你喜欢的单曲《Rain after Summer》推荐</p>
+		   								 	</li>
+				   			            </ul>
+				   			            <div class="div_bottom_3" style="margin: 0px 20px 0 20px;">
+				   						<div class="div_bottom_4">
+				   							<div class="div_bottom_5">
+				   								<a href="#" class="bottom_a">榜单</a>		
+				   								<span class="more">
+						   					    	<a href="#">更多</a>
+						   					    	<i class="cor"></i>
+					   					        </span>
+						   					</div>
+				   						</div>		   						
+				   					</div>
+				   					<div class="div_bd1">
+				   						<div class="div_bd3">				   						  
+				   							<dl class="div_bd2">			   								
+				   								<dt class="top">
+				   									<div class="div_bd4">
+				   										<img src="img/bs.jpg" class="img_bd" />
+				   										<a href="#" title="云音乐飙升榜"></a>
+				   									</div>
+				   									<div class="titi">
+				   										<a href="#" title="云音乐飙升榜">
+				   											<h3 class="h3">云音乐飙升榜</h3>
+				   										</a>
+				   										<div class="btn" style="padding: 10px 0 0 0px;">
+				   											<a href="#" title="播放" class="btn_a1">播放</a>
+				   											<a href="#" title="收藏" class="btn_a2">收藏</a>
+				   										</div>
+				   									</div>
+				   								</dt>
+				   								<dd style="text-align: center;">
+				   									<ol style="margin-bottom: 0px;">
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;color: red;">1</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no" style="color: red;">2</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;color: red;">3</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">4</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">5</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">6</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">7</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">8</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">9</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">10</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   									</ol>
+				   									<div style="background-color: #E8E8E8;">
+				   									<div class="div_ck">
+				   										<a href="#" title="查看全部" class="a2">查看全部></a>
+				   									</div>
+				   									</div>
+				   								</dd>
+				   							</dl>	
+				   							<dl class="div_bd2">			   								
+				   								<dt class="top">
+				   									<div class="div_bd4">
+				   										<img src="img/xg.jpg" class="img_bd" />
+				   										<a href="#" title="云音乐新歌榜"></a>
+				   									</div>
+				   									<div class="titi">
+				   										<a href="#" title="云音乐新歌榜">
+				   											<h3 class="h3">云音乐新歌榜</h3>
+				   										</a>
+				   										<div class="btn" style="padding: 10px 0 0 0px;">
+				   											<a href="#" title="播放" class="btn_a1">播放</a>
+				   											<a href="#" title="收藏" class="btn_a2">收藏</a>
+				   										</div>
+				   									</div>
+				   								</dt>
+				   								<dd style="text-align: center;">
+				   									<ol style="margin-bottom: 0px;">
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;color: red;">1</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no" style="color: red;">2</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;color: red;">3</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">4</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">5</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">6</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">7</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">8</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">9</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">10</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   									</ol>
+				   									<div style="background-color: #E8E8E8;">
+				   									<div class="div_ck">
+				   										<a href="#" title="查看全部" class="a2">查看全部></a>
+				   									</div>
+				   									</div>
+				   								</dd>
+				   							</dl>
+				   							<dl class="div_bd2" style="width: 223px;border-right: none;">			   								
+				   								<dt class="top">
+				   									<div class="div_bd4">
+				   										<img src="img/yc.jpg" class="img_bd" />
+				   										<a href="#" title="网易原创歌曲榜"></a>
+				   									</div>
+				   									<div class="titi">
+				   										<a href="#" title="网易原创歌曲榜">
+				   											<h3 class="h3">网易原创歌曲榜</h3>
+				   										</a>
+				   										<div class="btn" style="padding: 10px 0 0 0px;">
+				   											<a href="#" title="播放" class="btn_a1">播放</a>
+				   											<a href="#" title="收藏" class="btn_a2">收藏</a>
+				   										</div>
+				   									</div>
+				   								</dt>
+				   								<dd style="text-align: center;">
+				   									<ol style="margin-bottom: 0px;">
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;color: red;">1</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no" style="color: red;">2</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;color: red;">3</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">4</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">5</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">6</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">7</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">8</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1" style="background-color:#E8E8E8 ;">
+				   											<span class="no" style="background-color:#E8E8E8 ;">9</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   										<li class="li_li1">
+				   											<span class="no">10</span>
+				   											<a class="a1 a2" href="#" title="">########</a>
+				   											<div></div>
+				   										</li>
+				   									</ol>
+				   									<div style="background-color: #E8E8E8;width: 227px;">
+				   									<div class="div_ck">
+				   										<a href="#" title="查看全部" class="a2">查看全部></a>
+				   									</div>
+				   									</div>
+				   								</dd>
+				   							</dl>				   						  
+				   						</div>	
+				   						
+				   		           </div>
+				   			</div>				   				
+				   				</div>	
+				   				   		<div class="div_right">
+				   							<div class="div_right1">
+				   						    <p class="p-font">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+				   						    <a class="btn btn-default btn-danger a-dl" href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=100495085&response_type=code&redirect_uri=https://music.163.com/back/qq&forcelogin=true&state=FeGQzRHwxc&checkToken=9ca17ae2e6ffcda170e2e6ee8cd67ffc8b888bcb73abab85b8ca44b59ca791cb3ff6969ddaf35382b1a687b62af0feaec3b92ab4b7fe96d43bf69aaea3ea41b4f0fa8fc753b09389acf35a83af0094e55df794ee9e">用户登录</a>
+				   							</div>	
+				   							 <div class="div_right2">
+				   								<h3 class="v-h3">
+				   									<span class="v-span">入驻歌手</span>
+				   									<a title="查看全部" class="v-a">查看全部></a>
+				   								</h3>
+				   								<ul class="ul_class2">
+				   									<li>
+				   										<a href="#" class="li_a">
+				   											<div class="right_img">
+				   												<img src="img/yyr1.jpg"/>
+				   											</div>
+				   											<div class="ifo">
+				   												<h4>
+				   													<span class="f-thide span_a1">张惠妹aMEI</span>
+				   												</h4>
+				   												<p class="f-thide">台湾歌手张惠妹</p>
+				   											</div>
+				   										</a>
+				   									</li>
+				   									<li style="margin-top: 90px;">
+				   										<a href="#" class="li_a">
+				   											<div class="right_img">
+				   												<img src="img/yyr2.jpg"/>
+				   											</div>
+				   											<div class="ifo">
+				   												<h4>
+				   													<span class="f-thide span_a1">Fine乐团</span>
+				   												</h4>
+				   												<p class="f-thide">独立音乐人</p>
+				   											</div>
+				   										</a>
+				   									</li>
+				   									<li style="margin-top: 166px;">
+				   										<a href="#" class="li_a">
+				   											<div class="right_img">
+				   												<img src="img/yyr3.jpg"/>
+				   											</div>
+				   											<div class="ifo">
+				   												<h4>
+				   													<span class="f-thide span_a1">萬曉利</span>
+				   												</h4>
+				   												<p class="f-thide">民谣歌手、中国现代民谣的代表人物之一</p>
+				   											</div>
+				   										</a>
+				   									</li>
+				   									<li style="margin-top: 242px;">
+				   										<a href="#" class="li_a">
+				   											<div class="right_img">
+				   												<img src="img/yyr4.jpg"/>
+				   											</div>
+				   											<div class="ifo">
+				   												<h4>
+				   													<span class="f-thide span_a1">音乐人赵雷</span>
+				   												</h4>
+				   												<p class="f-thide">民谣歌手</p>
+				   											</div>
+				   										</a>
+				   									</li>
+				   								<li style="margin-top: 318px;">
+				   										<a href="#" class="li_a">
+				   											<div class="right_img">
+				   												<img src="img/yyr5.jpg"/>
+				   											</div>
+				   											<div class="ifo">
+				   												<h4>
+				   													<span class="f-thide span_a1">王三溥</span>
+				   												</h4>
+				   												<p class="f-thide">音乐人</p>
+				   											</div>
+				   										</a>
+				   									</li>
+				   								</ul>
+				   								<div>
+				   									<a class="btn btn-info" style="width: 209px;margin-left: 20px;">申请成为音乐人</a>
+				   								</div>
+				   						     </div>
+				   						     <div class="d-dj-1">
+				   						     	<h3 class="v-h3" style="color: black;">热门主播</h3>
+				   						     	<ul class="ul-bottom">
+				   						     		<li>
+				   						     			<a href="#" class="cver">
+				   						     				<img src="img/zb1.jpg"/>
+				   						     			</a>
+				   						     			<div class="info">
+					   						     			<p>
+					   						     				<a class="f-thide size">陈立</a>
+					   						     				<sup class="u-icn"></sup>
+					   						     			</p>
+					   						     			<p class="f-thide">心理学家、美食家陈立教授</p>
+				   						     			</div>
+				   						     		</li>
+				   						     		<li style="margin-top: 50px;">
+				   						     			<a href="#" class="cver">
+				   						     				<img src="img/zb2.jpg"/>
+				   						     			</a>
+				   						     			<div class="info">
+					   						     			<p>
+					   						     				<a class="f-thide size">DJ艳秋</a>
+					   						     				<sup class="u-icn"></sup>
+					   						     			</p>
+					   						     			<p class="f-thide">著名音乐节目主持人</p>
+				   						     			</div>
+				   						     		</li>
+				   						     		<li style="margin-top: 100px;">
+				   						     			<a href="#" class="cver">
+				   						     				<img src="img/zb3.jpg"/>
+				   						     			</a>
+				   						     			<div class="info">
+					   						     			<p>
+					   						     				<a class="f-thide size">国家大剧院古典音乐频道</a>
+					   						     				<sup class="u-icn"></sup>
+					   						     			</p>
+					   						     			<p class="f-thide">国家大剧院古典音乐官方</p>
+				   						     			</div>
+				   						     		</li>
+				   						     		<li style="margin-top: 150px;">
+				   						     			<a href="#" class="cver">
+				   						     				<img src="img/zb4.jpg"/>
+				   						     			</a>
+				   						     			<div class="info">
+					   						     			<p>
+					   						     				<a class="f-thide size">谢谢收听</a>
+					   						     				<sup class="u-icn"></sup>
+					   						     			</p>
+					   						     			<p class="f-thide">南京电台主持人王馨</p>
+				   						     			</div>
+				   						     		</li>
+				   						     		<li style="margin-top: 200px;">
+				   						     			<a href="#" class="cver">
+				   						     				<img src="img/zb5.jpg"/>
+				   						     			</a>
+				   						     			<div class="info">
+					   						     			<p>
+					   						     				<a class="f-thide size">DJ晓苏</a>
+					   						     				<sup class="u-icn"></sup>
+					   						     			</p>
+					   						     			<p class="f-thide">独立DJ，CRI环球旅游广播特邀DJ</p>
+				   						     			</div>
+				   						     		</li>
+				   						     	</ul>
+				   						     </div>
+				   				       </div>									   				       
+							   	     </div>
+							       </div>
+							  	</div>
+							</div>
+							<!--bottom底部-->
+							<div class="g-ft">
+								<div class="m-ft">
+									<div class="h-ft">
+										<div class="l-gt">
+											<p>
+												<a class="f-thide">关于网易</a>
+												<span class="love">|</span>
+												<a class="f-thide">客户服务</a>
+												<span class="love">|</span>
+												<a class="f-thide">服务条款</a>
+												<span class="love">|</span>
+												<a class="f-thide">网站导航</a>
+												<span class="love">|</span>
+												<a class="f-thide">意见反馈</a>
+											</p>
+											<p class="g-thide">
+												<span>网易公司版权所有©1997-2018</span>
+												&nbsp;&nbsp;&nbsp;杭州乐读科技有限公司运营：
+												<a class="f-thide">浙网文[2018]3506-263号</a>
+											</p>
+											<p class="g-thide">
+												<span>违法和不良信息举报电话：0571-89853516</span>
+												&nbsp;&nbsp;&nbsp; 举报邮箱：
+												<a class="f-thide">cloudmusicservice@163.com</a>
+											</p>
+										</div>
+										<ul class="you">
+											<li>
+												<a class="log1 f-tid">独立音乐人</a>
+											</li>
+											<li>
+												<a class="log2 f-tid">音乐专栏</a>
+											</li>
+											<li>
+												<a class="log3 f-tid">自媒体</a>
+											</li>
+											<li>
+												<a class="log4 f-tid">赞赏</a>
+											</li>
+											<li>
+												<a class="log5 f-tid">视频奖励</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						<script type="text/javascript" src="js/head.js" ></script>							
+				</body>
+			</html>
